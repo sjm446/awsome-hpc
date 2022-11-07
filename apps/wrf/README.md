@@ -123,7 +123,7 @@ You can accomplish this by typing:
 OS_TYPE=amzn2
 
 # Go to the corresponding folder
-cd amis/amzn2-pc-wrf
+cd amzn2-pc-wrf
 
 # Build the ami using packer
 packer build \
