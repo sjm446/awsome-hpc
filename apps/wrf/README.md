@@ -92,6 +92,9 @@ The command below will query the metadata of the AWS Cloud9 instance to determin
 ```bash
 export AWS_REGION=`curl --silent http://169.254.169.254/latest/meta-data/placement/region`
 ```
+#### End of Part 1.
+
+
 
 ### Building WRF Image using Packer on AWS
 
