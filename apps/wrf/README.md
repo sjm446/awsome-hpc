@@ -115,7 +115,7 @@ Different variables are passed to packer to build the WRF AMI. For simplicity, t
 
 #### Build an AMI
 
-Navigate to the `amis` folder, choose the desired OS, build the AMI using packer.
+Navigate to the `amis` folder (~/environment/AWSome-hpc/apps/wrf/amis), choose the desired OS, build the AMI using packer.
 You can accomplish this by typing:
 
 ```bash
