@@ -19,13 +19,24 @@ AWS Cloud9 contains a collection of tools that let you code, build, run, test, d
 
 #### Create an AWS Cloud9 environment:
 
-The link below will create an AWS Cloud9 environment from which you will be able to create your cluster.
+First download the following template: [Cloud9 Template](https://hpc.stevemessenger.co.uk/template/sc22-cloud9.yaml)
 
+The link below will open CloudFormation from which you will be able to create a Cloud9 
+
+If your workshop is running in Europe.
 [eu-west-1](<https://eu-west-1.console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/create>)
 
-[![Launch Stack](<https://samdengler.github.io/cloudformation-launch-stack-button-svg/images/us-east-1.svg>)](<https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/template?stackName=hpcsolutions-cloud9&templateURL=https://awsome-hpc.s3.amazonaws.com/cf_hpc_solutions_cloud9.yaml>)
+If your workshop is running in the US.
+[us-east-1](<https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create>)
 
-[![Launch Stack](<https://samdengler.github.io/cloudformation-launch-stack-button-svg/images/us-east-2.svg>)](<https://us-east-2.console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/create/template?stackName=hpcsolutions-cloud9&templateURL=https://awsome-hpc.s3.amazonaws.com/cf_hpc_solutions_cloud9.yaml>)
+1. Upload the template you downloaded a few moments ago.
+1. Press **NEXT**
+2. Give the Stack a name, for example "WorkshopCloud9"
+3. Press **NEXT** again
+4. Scroll to the bottom and tick "I acknowledge that AWS CloudFormation might create IAM resources with custom names."
+5. Press **Submit**
+
+The Stack will take a few minutes to deploy. Once its done move on.
 
 1. Open the [AWS Cloud9 console](<https://console.aws.amazon.com/cloud9>).
 1. Select **MyCloud9Env**.
