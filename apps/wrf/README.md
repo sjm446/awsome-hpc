@@ -130,7 +130,7 @@ packer build \
     -var-file variables.json \
     -var aws_region=${AWS_REGION} \
     -var parallel_cluster_version=`pcluster version | jq -r '.version'` \
-    -var company_name=[COMPANY_NAME] \
+    -var company_name=mycompany \
     amzn2-pc-wrf.json
 ```
 
