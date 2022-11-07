@@ -134,6 +134,8 @@ packer build \
     amzn2-pc-wrf.json
 ```
 
+It will likely take around 1-2 hours to build the AMI.
+
 ### Deploy AWS ParallelCluster with WRF
 
 Create the AWS ParallelCluster Configuration file.
