@@ -186,24 +186,7 @@ tar -xzf wrf_simulation_CONUS12km.tar.gz
 ```bash
 cd /fsx/conus_12km
 
-cp /opt/wrf-omp/src/run/{\
-        CAMtr_volume_mixing_ratio,\
-        GENPARM.TBL,\
-        HLC.TBL,\
-        LANDUSE.TBL,\
-        RRTM_DATA,\
-        RRTM_DATA_DBL,\
-        RRTMG_LW_DATA,\
-        RRTMG_LW_DATA_DBL,\
-        RRTMG_SW_DATA,\
-        RRTMG_SW_DATA_DBL,\
-        SOILPARM.TBL,\
-        URBPARM.TBL,\
-        URBPARM_UZE.TBL,\
-        VEGPARM.TBL,\
-        ozone.formatted,\
-        ozone_lat.formatted,\
-    ozone_plev.formatted} .
+cp /opt/wrf-omp/src/run/* .
 ```
 
 #### Run CONUS 12Km
